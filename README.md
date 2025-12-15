@@ -1,6 +1,6 @@
 # Portfolio Analysis and Optimisation 
 
-The aim of this project is to analyse, evaluate and optimise three portfolios, each consisting of five randomly selected financial assets, using key performance and risk measures such as annual return, volatility, VaR, CVaR and the Sharpe ratio. The project further applies portfolio optimisation techniques to identify optimal asset allocations that maximise risk-adjusted returns under standard investment constraints.
+The aim of this project is to analyse, evaluate and optimise three portfolios, each consisting of five randomly selected financial assets, using key performance and risk measures such as annual return, volatility, VaR, CVaR and the Sharpe ratio. The project further applies portfolio optimisation to identify optimal asset allocations that maximise risk-adjusted returns under standard investment constraints.
 
 ###Technologies used
 Python and Jupyter Notebook
@@ -21,11 +21,12 @@ The assets for each portfolio are as follows:
 
 ## Portfolio Analysis
 ### Risk Measurements
- 1) Value at Risk (VaR) using Variance-Covariance Method
- 2) Value at Risk (VaR) using Monte Carlo Simulation
- 3) Expected Shortfall (CVaR)
- 4) Sharpe Ratio
- 5) 
+ 1) Annual returns and volatility
+ 2) Value at Risk (VaR) using Variance-Covariance Method
+ 3) Value at Risk (VaR) using Monte Carlo Simulation
+ 4) Expected Shortfall (CVaR)
+ 5) Sharpe Ratio
+
 
 Log returns were used to calculate VaR and ES while simple returns were used to calculate the Sharpe Ratio.
 
