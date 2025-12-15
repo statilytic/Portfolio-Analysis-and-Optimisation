@@ -11,32 +11,32 @@ Returns are calculated using historical data which was imported from Yahoo Finan
 The assets for each portfolio are as follows:
 
 #### Portfolio 1:
- ##### - NVIDIA, Ford, Plug Power, SoundHound, Nu Holdings
+- NVIDIA, Ford, Plug Power, SoundHound, Nu Holdings
 
 #### Portfolio 2:
- ##### - Netflix, QuantumScape, Baytex Energy Corp, Bath and Body Works, CleanSpark Inc
+ - Netflix, QuantumScape, Baytex Energy Corp, Bath and Body Works, CleanSpark Inc
 
 #### Portfolio 3:
- ##### - Amazon, Apple, Pfizer, Hecla Mining Company, New Gold Inc
+ - Amazon, Apple, Pfizer, Hecla Mining Company, New Gold Inc
 
 ## Portfolio Analysis
 ### Risk Measurements
- 1) Annual returns and volatility
- 2) Value at Risk (VaR) using Variance-Covariance Method
- 3) Value at Risk (VaR) using Monte Carlo Simulation
- 4) Expected Shortfall (CVaR)
- 5) Sharpe Ratio
+ 1. Annual returns and volatility
+ 2. Value at Risk (VaR) using Variance-Covariance Method
+ 3. Value at Risk (VaR) using Monte Carlo Simulation
+ 4. Expected Shortfall (CVaR)
+ 5. Sharpe Ratio
 
 
 Log returns were used to calculate VaR and ES while simple returns were used to calculate the Sharpe Ratio.
 
 ### Key Findings
 
- - Portfolio 1 is most attractive for risk-seeking investors, offering the highest annual return and strongest risk-adjusted performance.
+ - **Portfolio 1** is most attractive for risk-seeking investors, offering the highest annual return and strongest risk-adjusted performance.
 
- - Portfolio 2 provides the weakest risk-adjusted returns, as indicated by its lowest Sharpe ratio.
+ - **Portfolio 2** provides the weakest risk-adjusted returns, as indicated by its lowest Sharpe ratio.
 
- - Portfolio 3 is best suited for risk-averse investors, exhibiting the lowest volatility and lowest VaR, despite higher exposure to extreme tail risk.
+ - **Portfolio 3** is best suited for risk-averse investors, exhibiting the lowest volatility and lowest VaR, despite higher exposure to extreme tail risk.
 
 
 ## Portfolio Optimisation
@@ -45,10 +45,11 @@ Portfolio optimisation is performed using Sharpe ratio maximisation, subject to 
 ### Results : 
 There is a substantial increase in the Sharpe ratio when optimal weights are applied, with annual returns more than doubling compared to the equal-weighted portfolios. 
 
-Annual returns for Portfolios 2 and 3 increase more conservatively relative to Portfolio 1. Changes in annual volatility are modest, volatility increases by approximately 1% for Portfolio 1, rises by about 2% for Portfolio 2 and decreases by roughly 3% for Portfolio 3. Overall, the application of optimal portfolio weights significantly enhances risk-adjusted performance compared to equal weighting
+Annual returns for portfolios 2 and 3 increase more conservatively relative to portfolio 1. Changes in annual volatility are modest, volatility increases by approximately 1% for portfolio 1, rises by about 2% for portfolio 2 and decreases by roughly 3% for portfolio 3. Overall, the application of optimal portfolio weights significantly enhances risk-adjusted performance compared to equal weighting
 
 
 ### Project Report
 
-A detailed report explaining the analysis and results is available in the following document: Portfolio Analysis and Optimisation.pdf
+A detailed report explaining the analysis and results is available here:
+[Portfolio Analysis and Optimisation (PDF)](Portfolio%20Analysis%20and%20Optimisation.pdf)
 
