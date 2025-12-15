@@ -21,10 +21,11 @@ The assets for each portfolio are as follows:
 
 ## Portfolio Analysis
 ### Risk Measurements
- 1) Value at Risk using Variance-Covariance Method
- 2) Value at Risk using Monte Carlo Simulation
+ 1) Value at Risk (VaR) using Variance-Covariance Method
+ 2) Value at Risk (VaR) using Monte Carlo Simulation
  3) Expected Shortfall (CVaR)
  4) Sharpe Ratio
+ 5) 
 
 Log returns were used to calculate VaR and ES while simple returns were used to calculate the Sharpe Ratio.
 
@@ -40,7 +41,7 @@ Log returns were used to calculate VaR and ES while simple returns were used to 
 ## Portfolio Optimisation
 Portfolio optimisation is performed using Sharpe ratio maximisation, subject to standard constraints: asset weights sum to one and are bounded between 0 and 1. 
 
-Results : 
+### Results : 
 There is a substantial increase in the Sharpe ratio when optimal weights are applied, with annual returns more than doubling compared to the equal-weighted portfolios. 
 
 Annual returns for Portfolios 2 and 3 increase more conservatively relative to Portfolio 1. Changes in annual volatility are modest, volatility increases by approximately 1% for Portfolio 1, rises by about 2% for Portfolio 2 and decreases by roughly 3% for Portfolio 3. Overall, the application of optimal portfolio weights significantly enhances risk-adjusted performance compared to equal weighting
@@ -48,6 +49,5 @@ Annual returns for Portfolios 2 and 3 increase more conservatively relative to P
 
 ### Project Report
 
-A detailed report explaining the analysis and results is available below:
+A detailed report explaining the analysis and results is available in the following document: Portfolio Analysis and Optimisation.pdf
 
-[View the full project report](Portfolio Analysis and Optimisation.pdf)
