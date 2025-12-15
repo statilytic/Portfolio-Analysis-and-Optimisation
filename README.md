@@ -50,4 +50,4 @@ Annual returns for Portfolios 2 and 3 increase more conservatively relative to P
 
 A detailed report explaining the analysis and results is available below:
 
-📄 **[View the full project report (PDF)](Portfolio Analysis and Optimisation.pdf)**
+[View the full project report](Portfolio Analysis and Optimisation.pdf)
